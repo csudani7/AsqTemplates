@@ -1415,7 +1415,7 @@ section {
 }
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #f8fbfe;
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
@@ -1556,7 +1556,7 @@ section {
   color: #444444;
   font-size: 14px;
   background: #f8fbfe;
-  box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+  /* box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08); */
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
@@ -1683,6 +1683,12 @@ section {
   background: #3194db;
   color: #fff;
   text-decoration: none;
+}
+
+#copyright .copyright {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  color: #012970;
 }
 
 .test ul li {
