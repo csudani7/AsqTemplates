@@ -174,11 +174,11 @@
   /**
    * Testimonials slider
    */
-  new Swiper('.testimonials-slider', {
+  new Swiper('.hero-slider', {
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 6000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
