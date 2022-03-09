@@ -171,15 +171,16 @@
     selector: '.glightbox'
   });
 
-  /**
-   * Testimonials slider
-   */
   new Swiper('.hero-slider', {
     speed: 600,
     loop: true,
+    dots: true,
     autoplay: {
       delay: 6000,
       disableOnInteraction: false
+    },
+    pagination: {
+      el: ".swiper-pagination",
     },
     slidesPerView: 'auto',
     breakpoints: {
