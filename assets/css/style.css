@@ -34,7 +34,7 @@ p {
 }
 
 .accordion-button,
-a{
+a {
   color: #eeeeee !important;
   text-decoration: none;
 }
@@ -168,7 +168,10 @@ h6 {
   color: #32bcad;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 80px;
+}
+img {
+  vertical-align: bottom !important;
 }
 @media (max-width: 992px) {
   #header .logo {
@@ -467,7 +470,7 @@ h6 {
 @media (max-width: 992px) {
   #hero {
     height: auto;
-    padding: 120px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
   }
   #hero h1 {
     font-size: 28px;
@@ -1538,4 +1541,143 @@ h3 {
 
 .accordion-button::after {
   background-image: url(../img/down-arrow.svg) !important;
+}
+
+#other-resources h2,
+#contact h3,
+#about-video h3,
+#activity h3 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/* RESPONSIVE */
+
+/* Mobile */
+@media screen and (max-width: 425px) {
+  .about .content {
+    padding: 0px;
+  }
+
+  .about p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    margin: 15px 0 15px 0;
+  }
+
+  section {
+    padding: 22px 0px;
+  }
+
+  .about .content h3 {
+    font-size: 22px;
+    margin-top: 25px;
+  }
+
+  .margint5 {
+    margin-top: 1rem;
+  }
+
+  #other-resources h2,
+  #contact h3,
+  #about-video h3,
+  #activity h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+  }
+
+  h5 {
+    font-size: 0.9rem;
+  }
+
+  #header .logo img {
+    max-height: 50px;
+  }
+
+  .section-title h2,
+  .about h2 {
+    font-size: 22px;
+  }
+
+  .accordion-button,
+  .accordion-body,
+  .about .content ul li {
+    font-size: 14px !important;
+  }
+
+  .inner-page {
+    margin-top: 4rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 426px) and (max-width: 769px) {
+  .about .content {
+    padding: 0px;
+  }
+
+  .about p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    margin: 15px 0 15px 0;
+  }
+
+  section {
+    padding: 22px 0px;
+  }
+
+  .about .content h3 {
+    font-size: 22px;
+    margin-top: 25px;
+  }
+
+  .margint5 {
+    margin-top: 1rem;
+  }
+
+  #other-resources h2,
+  #contact h3,
+  #about-video h3,
+  #activity h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+  }
+
+  h5 {
+    font-size: 0.9rem;
+  }
+
+  #header .logo img {
+    max-height: 50px;
+  }
+
+  .section-title h2,
+  .about h2 {
+    font-size: 22px;
+  }
+
+  .accordion-button,
+  .accordion-body,
+  .about .content ul li {
+    font-size: 14px !important;
+  }
+
+
+  .inner-page {
+    margin-top: 4rem;
+  }
 }
